@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#fccd6b">
+    <TextView
+        android:id="@+id/text_name"
+        android:textSize="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_text"/>
+    <TextView
+        android:id="@+id/text_species"
+        android:textColor="#315645"
+        android:textSize="40px"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_profile"/>
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="NAME"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_name"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:text="@string/submit_button"
+
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#9aece1"
+        />
+
+</LinearLayout>
