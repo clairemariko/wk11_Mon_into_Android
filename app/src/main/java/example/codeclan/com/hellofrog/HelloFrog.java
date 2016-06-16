@@ -50,8 +50,6 @@ public class HelloFrog extends AppCompatActivity{
         // Spinner element
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
 
-        // Spinner click listener
-//        spinner.setOnItemSelectedListener(this);
 
         // Spinner Drop down elements
         List<String> categories = new ArrayList<String>();
@@ -78,9 +76,11 @@ public class HelloFrog extends AppCompatActivity{
         Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
     }
     public void onNothingSelected(AdapterView<?> arg0) {
-        // TODO Auto-generated method stub
+
     }
   }
+
+
 
 
 

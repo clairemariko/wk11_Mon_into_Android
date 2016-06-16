@@ -27,11 +27,6 @@
         android:layout_marginLeft="20dp"
         android:hint="NAME"/>
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:prompt="@string/spinner_name"/>
 
     <Button
         android:id="@+id/submit_button"
@@ -43,5 +38,13 @@
         android:layout_marginTop="10dp"
         android:background="#9aece1"
         />
+
+    <Spinner
+        android:id="@+id/dropdown"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#9aece1"
+        android:text="@string/dropdown_menu"
+        android:prompt="@string/dropdown"/>
 
 </LinearLayout>

@@ -2,13 +2,13 @@
     <string name="app_name">Hello</string>
     <string name="app_header">Hello planet of frogs!</string>
     <string name="app_text"><b>We are a friendly bunch of frogs</b></string>
-    <string name="app_profile"><b>Hi my name is Rob and I like to jump. I eat about 5 flies a day and when it sunny I like to sit
-    on lilly pad</b></string>
-
-
-        <string name="spinner_name">AndroidSpinnerExample</string>
-        <string name="action_settings">Settings</string>
+    <string name="app_profile"><b>Please Enter Your Name Below And Select From The DropDown
+    Which Frog You Want To Be</b></string>
 
 
     <string name="submit_button">SUBMIT</string>
+
+    <string name="dropdown_menu">Choose Your Frog</string>
+    <string name="dropdown">Settings</string>
+
 </resources>
